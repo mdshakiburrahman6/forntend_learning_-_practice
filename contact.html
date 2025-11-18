@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic</title>
+
+    <!-- Links -->
+     <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <section class="main_sec">
+        <!-- Form -->
+            <form>
+                <fieldset class="prsn_data">
+                    <legend>Contact Us</legend>
+                    
+                    <!-- Name Field -->
+                    <label for="first_name">First name</label>
+                    <input type="text" name="first_name" id="first_name">
+
+                    <!-- Email -->
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+
+                </fieldset>
+
+                <!-- Radio -->
+                <fieldset class="selector_field">
+                    <legend>What is you Occupation</legend>
+
+                    <!-- Student -->
+                    <input type="radio" name="occupation" id="student">
+                    <label for="student">Sudent</label>
+
+                    <!-- Job Holder -->
+                    <input type="radio" name="occupation" id="job">
+                    <label for="job">Job Holder</label>
+
+                    <!-- Job Holder -->
+                    <input type="radio" name="occupation" id="unemployed">
+                    <label for="unemployed">Unemployed</label>
+
+                </fieldset>
+
+                <!-- Checkbox -->
+                <fieldset class="selector_field">
+
+                    <legend>What is your dream</legend>
+
+                    <!-- Developer -->
+                    <input type="checkbox" name="dream" id="developer">
+                    <label for="developer">Developer</label>
+
+                    <!-- Graphics Designer -->
+                    <input type="checkbox" name="dream" id="designer">
+                    <label for="designer">Graphics Designer</label>
+
+                    <!-- Graphics Designer -->
+                    <input type="checkbox" name="dream" id="hacker">
+                    <label for="hacker">Hacker</label>
+
+                </fieldset>
+
+                <!-- Textarea -->
+                <fieldset class="prsn_data msg_field">
+
+                    <legend>Message</legend>
+
+                    <!-- Textarea -->
+                    <label for="text_area">Message</label>
+                    <textarea cols="100" rows="4" name="mesg_area" id="mesg_area"></textarea>
+
+                </fieldset>
+
+                <!-- Button -->
+                <input class="btn" type="submit" value="Submit">
+                <input class="btn" type="submit" value="clear">
+
+            </form>
+       </section>
+    </main>
+    <footer>
+        <p class="text_center copyright"><small> &copy;2025 All Copyrights Reserved. </small></p>
+    </footer>
+
+</body>
+</html>
