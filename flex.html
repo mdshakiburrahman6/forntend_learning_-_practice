@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of Flex</title>
+
+    <style>
+        header{
+            margin: 50px;
+            padding: 30px 50px;
+            background-color: rgb(17, 196, 196);
+            border-radius: 50px;
+        }
+
+        header nav .header-area{
+            /* background-color: red; */
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .logo img{
+            width: 200px;
+        }
+        .menu_bar ul{
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .menu_bar ul li{
+            list-style: none;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 16px;
+        }
+        .menu_bar ul li a{
+            text-decoration: none;
+        }
+        .btn_area button{
+            padding: 15px 40px;
+            background-color: yellow;
+            color: blueviolet;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            border: none;
+            border-radius: 50px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <!-- Nav bar -->
+        <nav>
+            <div class="header-area">
+                <div class="logo">
+                    <a href=""><img src="Module-4/assets/img/logo.svg" alt=""></a>
+                </div>
+                <div class="menu_bar">
+                    <ul>
+                        <li><a href="#"></a>Home</li>
+                        <li><a href="#"></a>Pages</li>
+                        <li><a href="#"></a>Become a sponsor</li>
+                        <li><a href="#"></a>Events</li>
+                        <li><a href="#"></a>Blog</li>
+                        <li><a href="#"></a>Contact</li>
+                    </ul>                </div>
+                <div class="btn_area">
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
